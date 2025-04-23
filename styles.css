@@ -11,46 +11,58 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
+
 
 }
 
 h1 {
     font-size: 72px;
+    color: aliceblue;
 }
+
 .container {
     padding: 20px;
     border-radius: 25px;
-    background: white;
+    background-color: rgba(216, 203, 203, 0.3);
+    /* Cinza com um pouco de transparência */
+    backdrop-filter: blur(8px);
+    /* Ajuste o valor do blur conforme desejado */
+    -webkit-backdrop-filter: blur(10px);
+    /* Para navegadores Safari */
+    border-radius: 40px;
+    box-shadow: rgba(116, 19, 119, 0.56) 0px 22px 70px 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 450px;
-    width: 580px;
+    height: 70vh;
+    width: auto;
+    padding: 5%;
 }
 
 .buttons-box {
     margin: 30px 0;
     display: flex;
-    gap: 40px;
+    gap: 25px;
+
 }
 
 button:hover {
     opacity: 0.5;
+    scale: 1.05;
 }
 
 
 
 button {
 
-    padding: 25px;
+    padding: 20px;
     font-size: 62px;
     cursor: pointer;
-    border: none ;
+    border: none;
     border-radius: 25px;
 
-    transition: opacity 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 
 }
 
@@ -58,19 +70,20 @@ button:active {
 
     font-size: 60px;
     box-shadow: rgb(0, 21, 115) 0px 10px 36px 0px, rgba(0, 99, 121, 0.06) 0px 0px 0px 1px;
+    scale: 1.1;
 
 }
 
 #rock {
-    background-color: #a7680a ;
+    background-color: #a7680a;
 }
 
 #paper {
-    background-color: #62b2d0 ;
+    background-color: #62b2d0;
 }
 
 #scissors {
-    background-color: #7f0181 ;
+    background-color: #7f0181;
 }
 
 p {
@@ -85,4 +98,58 @@ p {
 
 .machine-score span {
     color: #ab0000;
+}
+
+@media screen and (max-width: 710px) {
+
+    .container {
+        width: 90%;
+        justify-content: space-evenly;
+        border: 2px solid wheat;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .buttons-box {
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        gap: 7.5%;
+
+    }
+
+
+    button {
+
+        padding: 10px;
+        font-size: 42px;
+        cursor: pointer;
+        border: none;
+        border-radius: 25px;
+
+        transition: all 0.25s ease-in-out;
+
+    }
+
+
+    button:hover {
+        opacity: 0.8;
+        scale: 1.05;
+    }
+
+
+    button:active {
+
+        font-size: 44px;
+        box-shadow: rgb(0, 21, 115) 0px 10px 36px 0px, rgba(0, 99, 121, 0.06) 0px 0px 0px 1px;
+
+
+    }
+
 }
