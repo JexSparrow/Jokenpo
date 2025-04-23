@@ -113,6 +113,7 @@ p {
     }
 
     p {
+        margin-top: 20px;
         font-size: 22px;
     }
 
@@ -120,7 +121,7 @@ p {
         margin: 30px 0;
         display: flex;
         justify-content: center;
-        gap: 7.5%;
+        gap: 10%;
 
     }
 
@@ -128,7 +129,7 @@ p {
     button {
 
         padding: 10px;
-        font-size: 42px;
+        font-size: 48px;
         cursor: pointer;
         border: none;
         border-radius: 25px;
@@ -146,7 +147,7 @@ p {
 
     button:active {
 
-        font-size: 44px;
+        font-size: 50px;
         box-shadow: rgb(0, 21, 115) 0px 10px 36px 0px, rgba(0, 99, 121, 0.06) 0px 0px 0px 1px;
 
 
