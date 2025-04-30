@@ -5,6 +5,7 @@ Preparem-se para conhecer um projeto divertido e que demonstra minhas habilidade
 Construído com HTML para a estrutura fundamental, CSS para um visual atraente e intuitivo, e JavaScript para a lógica de jogo dinâmica, este projeto oferece uma experiência de usuário envolvente onde humanos podem desafiar a inteligência artificial (carinhosamente apelidada de "Alexa" no código!).
 
 Projeto desenvolvido no <a href="https://aulas.devclub.com.br/m/courses"> Dev Club </a>
+
 Confira: (https://jokenpo-jex.netlify.app/)
 
 <h2>Layout Desktop</h2>
